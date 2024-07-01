@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgb(15, 2, 41), rgba(0, 0, 0, 0.651)), url(background\ new.jpg_large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+}
+.home{
+    font-size: 2rem;
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg, red, blue);
+    width: 11%;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.home >li{
+    display: inline;
+}
+.home >li>a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+.get-started{
+    font-size: 1rem;
+    text-transform: capitalize;
+    width: 20%;
+    margin: 2rem;
+    margin-left: 10rem;
+}
+.get-started >li{
+    display: inline;
+}
+.get-started >li>a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+.get-started >li >a:hover{
+    border-bottom: red 2px solid;
+    color: wheat
+}
+.adjust{
+    display: flex;
+    gap: 50rem;
+}
+.new{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: red;
+    font-weight: bold;
+}
+.entry{
+    width: 80%;
+    padding: 2rem;
+    margin-left: 20%;
+    margin-top: -3rem;
+}
+.entry >form{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 70%;
+    height: 30%;
+}   
+.entry >form >label{
+    font-weight: bold;
+    color: rgb(10, 3, 71);
+}
+.entry >form >input{
+    width: 100%;
+    padding: 1rem; 
+    margin-bottom: 2rem;
+    cursor: pointer;  
+}
+.entry >form >input::placeholder{
+    font-weight: bold;
+    letter-spacing: 1px;   
+}.entry >form>input[type='submit']{
+    border-radius: 2rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: red;
+    font-weight: bolder;
+}
+.entry >form>input[type='submit']:hover{
+    background-color: goldenrod;
+}
+@media(max-width:480px){
+    body{
+        position: relative;
+        width:100%;
+        padding: 1rem;
+        height: 100%;
+    } .adjust{
+        gap: 5rem;
+        margin-top: -1rem;
+    }
+    .home{
+        width: 30%;
+        font-size: 1rem;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+        
+    }
+    .get-started{
+        font-size: 1rem;
+        margin-left: -3rem;
+        width: 50%;
+        margin-top: 2.2rem;
+    }
+
+    .entry{
+        margin: 0.5rem;
+        width: 100%;
+        margin-top: -3rem;
+    }
+    .new{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .home{
+        font-size: 1.3rem;
+        width: 25%;
+    }
+    .entry >form{
+        width: 100%;
+    }
+}

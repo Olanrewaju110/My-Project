@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+.container{
+    padding: 1rem;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(15, 2, 41), rgba(0, 0, 0, 0.808));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.home{
+    font-size: 2rem;
+    text-transform: capitalize;
+    background-image: linear-gradient(45deg, red, blue);
+    width: 11%;
+    margin: 2rem;
+    border-radius: 10px;
+}
+.home >li{
+    display: inline;
+}
+.home >li>a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+.sign{
+    font-size: 1rem;
+    text-transform: capitalize;
+    width: 11%;
+    margin: 2rem;
+    margin-left: 10rem;
+    border-radius: 10px;
+}
+.sign >li{
+    display: inline;
+}
+.sign >li>a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+}
+.sign >li >a:hover{
+    border-bottom: red 2px solid;
+    color: wheat
+}
+.flex{
+    display: flex;
+    gap: 50rem;
+}
+.plan{
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    background-color: rgba(245, 245, 245, 0.267);
+}
+.one{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.one >h1{
+    font-size: 2.5rem;
+    color: rgb(192, 71, 71);
+}
+.one >h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.one >h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.one >h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.one >h5{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.one >h6{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: brown;
+}
+.one >button{
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.one >button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 11, 11);
+}
+.two{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.two >h1{
+    font-size: 2.5rem;
+    color: rgb(192, 71, 71);
+}
+.two >h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.two >h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.two >h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.two >h5{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.two >h6{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: brown;
+}
+.two >button{
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.two >button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 11, 11);
+}
+.three{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.three >h1{
+    font-size: 2.5rem;
+    color: rgb(192, 71, 71);
+}
+.three >h2{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+.three >h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.three >h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.three >h5{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.three >h6{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: brown;
+}
+.three >button{
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+.three >button:hover{
+    cursor: pointer;
+    background-color: rgb(128, 11, 11);
+}
+.Start{
+    display: flex;
+    justify-content: space-around;
+}
+.redeem{
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    margin-top: 3rem;
+}
+.redeem h1{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.redeem p{
+    text-align: center;
+    color: wheat;
+}
+.redeem input{
+    width: 50%;
+    padding: 1rem; 
+    margin-bottom: 2rem;
+    cursor: pointer; 
+    border-radius: 10px;
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+.press{
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    border-radius: 1rem;
+    outline: none;
+}
+.press:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+.description{
+    font-size: 1rem;
+    color: white;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+@media(max-width: 480px){
+    .container{
+        position: relative;
+        width: 100%;
+    }
+    .flex{
+        gap: 6rem;
+        margin-top: -1rem;
+        margin: -1rem;
+    }
+    .home{
+        width: 30%;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+        
+    }
+    .sign{
+        font-size: 1rem;
+        margin-left: -2rem;
+        width: 50%;
+        margin-top: 2.2rem;
+    }
+    .plan{
+        width: 100%;
+        font-size: 2.3rem;
+    }
+    .Start{
+        display: block;
+        padding: 1rem;
+    }
+    .one{
+        margin-bottom: 2rem;
+        margin-top: -1rem;
+    }
+    .two{
+        margin-bottom: 2rem;
+    }
+    .three{
+        margin-bottom: -1rem;
+    }
+    .redeem input{
+        margin-left: 3rem;
+    }
+    .press{
+        font-size: 10px;
+        width: 30%;
+    }
+}

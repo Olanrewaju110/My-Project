@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada Big", sans-serif;
+}
+/* body{
+    width: 100%;
+    height: 100%;
+    margin: none;
+} */
+.container{
+    background-image: linear-gradient(to right, rgb(15, 2, 41), rgba(0, 0, 0, 0.651)), url(background\ new.jpg_large);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    margin: none;
+   
+}
+.name{
+    background-image: linear-gradient(45deg, red, blue);
+    border-radius: 1rem;
+    width: 15%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.list{
+    display: flex;
+    gap: 3rem;
+    font-size: 1rem;
+}
+.list li >a{
+    text-decoration: none;
+    color: white;
+}
+.list >li >a:hover{
+    cursor: pointer;
+    border-bottom: white 3px solid;
+    color:rgb(226, 38, 164);
+
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 3rem;
+}
+.right{
+    width: 100%;
+    height: 100%;
+}
+.right >h1{
+    font-size: 4rem;
+    color: white;
+    width: 55%;
+    padding: 3rem;
+    margin-bottom: -3rem;
+}
+.right >p{
+    font-size: 1.5rem;
+    color: rgb(216, 210, 210);
+    width: 50%;
+    padding: 3rem;
+    text-align: justify;
+    margin-bottom: -2rem;
+}
+.right >h2{
+    font-size: 2rem;
+    color: white;
+    padding: 3rem;
+    margin-top: 2rem;
+    margin-bottom: -7rem;
+}
+.right >h3{
+    font-size: 5rem;
+    color: white;
+    padding: 3rem;
+    margin-bottom: -3rem;
+}
+.right >button{
+    background-color: rgb(255, 5, 101);
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 3rem;
+    font-size: 1rem;
+    color: white;
+    width: 30%;
+    border: none;
+}
+.right >button:hover{
+    cursor: pointer;
+    background-color: rgb(167, 1, 1);
+}
+.right >button >a{
+    text-decoration: none;  
+    color: white;
+}
+.down{
+    background-color: black;
+    width: 100%;
+    /* height: 100%; */
+    padding: 2rem;
+}
+.reason{
+    background-color: rgb(15, 2, 41);
+    margin: 3% auto;
+    width: 90%;
+    padding: 2rem;
+    border-radius: 20px;
+}
+.reason >h1{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+.direction{
+    display: flex;
+    gap: 10rem;
+    margin-bottom: 4rem;
+}
+.first >h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.first >p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.second >h1{
+    color: rgb(255, 253, 253);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.second >p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.third >h1{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.third >p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.direction-2{
+    display: flex;
+    gap: 10rem;
+}
+.fourth >h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.fourth >p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.fifth >h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.fifth >p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.sixth >h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.sixth >p{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+.movies{
+    background-color: black;
+    height: 100%;
+}
+.movies >h1{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.movies >p{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+.images{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.image1 >img{
+    width: 80%;
+    margin: 2rem;
+    height: 80%;
+}
+.image2 >img{
+    width: 80%;
+    margin: 1rem;
+    height: 80%;
+}
+.image3 >img{
+    width: 80%;
+    margin: 1rem;
+    height: 80%;
+}
+.image4 >img{
+    width: 80%;
+    margin: 1rem;
+    height: 80%;
+}
+.image5 >img{
+    width: 80%;
+    margin: 1rem;
+    height: 80%;
+}
+.premier{
+    background-color: rgba(240, 43, 43, 0.932);
+    display: flex;
+    width: 100%;
+    padding: 3rem;
+}
+.premier >img{
+    width: 50%;
+}
+.price{
+    margin-left: 5rem;
+}
+.price h1{
+    color: rgb(255, 255, 255);
+    width: 75%;
+    font-size: 3rem;
+    margin-top: 4rem;
+}
+.price h2{
+    color: rgb(238, 214, 214);
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.price h3{
+    color: rgb(255, 255, 255);
+    width: 75%;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+.price p{
+    color: rgb(255, 255, 255);
+    width: 75%;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.accord{
+    background-color: rgb(28, 2, 51);
+    padding: 1rem;
+}
+.accord h1{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.accordion{
+    margin: 60px auto;
+    width: 600px;
+}
+.accordion >li{
+    list-style: none;
+    width: 100%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(39, 19, 75);
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+                6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+label::before{
+    content: '+';
+    margin-right: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    color: rgb(255, 255, 255);
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+.accordion input[type="radio"]:checked + label::before{
+    content: '-';
+}
+.foot{
+    background-color: black;
+}
+.foot p{
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 1rem;
+    text-align: center;
+}
+.foot >h1{
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 1rem;
+    text-align: center;
+}
+@media(max-width: 480px){
+    .container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .left{
+        gap: 3rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    .name{
+        width: 30%;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+    .list{
+        font-size: 15px;
+    }
+    .right >h1{
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .right >p{
+        font-size: 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+    .right >h2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: -2rem;
+    }
+    .right >h3{
+        font-size: 3.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .right >button{
+        font-size: 1rem;
+        width: 80%;
+    }
+    .down{
+        width: 100%;
+        padding: 1rem;
+    }
+    .reason >h1{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        text-align: center;
+    }
+    .direction{
+        display: block;
+    }
+    .first >h1{
+        font-size: 1.5rem;
+    }
+    .first >p{
+        margin-bottom: 2rem;
+    }
+    .second >h1{
+        font-size: 1.5rem;
+    }
+    .second >p{
+        margin-bottom: 2rem;
+    }
+    .third >h1{
+        font-size: 1.5rem;
+    }
+    .direction-2{
+        display: block;
+    }
+    .fourth >h1{
+        font-size: 1.5rem;
+    }
+    .fourth >p{
+        margin-bottom: 2rem;
+    }
+    .fifth >h1{
+        font-size: 1.5rem;
+    }
+    .fifth >p{
+        margin-bottom: 2rem;
+    }
+    .sixth >h1{
+        font-size: 1.5rem;
+    }
+    .movies >h1{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .movies >p{
+        font-size: 12px;
+    }
+    .images{
+        display: block;
+    }
+    .image1 >img{
+        width: 85%;
+    }
+    .image2 >img{
+        width: 90%;
+    }
+    .image3 >img{
+        width: 90%;
+    }
+    .image4 >img{
+        width: 90%;
+    }
+    .image5 > img{
+        width: 90%;
+    }
+    .premier{
+        display: block;
+        padding: 0.5rem;
+    }
+    .premier >img{
+        width: 100%;
+    }
+    .price{
+        margin-left: 0rem;
+    }
+    .price h1{
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .price h2{
+        text-align: center;
+        padding: 1rem;
+    }
+   .price h3{
+    margin-left:2rem;
+   }
+   .price p{
+    margin-left: 2rem;
+   }
+    .accord h1{
+        font-size: 1.5rem;
+    }
+    .accordion{
+        width: 90%;
+        margin:3px;
+    }
+    .foot >p{
+        font-size: 0.8rem;
+    }
+    .foot >h1{
+        font-size: 0.8rem; 
+    }
+}
